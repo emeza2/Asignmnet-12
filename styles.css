@@ -1,0 +1,90 @@
+div.container{
+    width: 80%;
+    margin:0 auto;
+}
+main{
+display: flex;
+}
+main img{
+    width: 33%;
+}
+nav{
+    display: flex;
+}
+nav a{
+    flex: 1;
+    text-align: center;
+    line-height:3em;
+    background-color: rgb(214, 200, 43);
+    font-family: serif;
+}
+aside img{
+    width: 100%;
+    padding: 10px;
+}
+aside{
+    text-align: center;
+    width: 33%;
+}
+section{
+    width:33%;
+}
+img.cycle-slide {
+    width: 100%;
+    padding-top: 10px;
+
+}
+.cycle-slideshow{
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.cycle-slideshow {
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color: gold;
+    font-family: sans-serif;
+
+}
+h2{color:blue;
+
+}
+aside img {
+    width: 100%;
+}
+figure{
+    width: 33%;
+}
+
+figure p{color: blue;
+    align-items: top center;
+}
+p{
+    font-size: larger;
+    padding-top:40%;
+}
+/* MEDIA QUERY*/
+@media screen and (min-width:481px)and (max-width:782px){
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+nav a{
+    padding-inline-end: 0.1in;
+}
+p{font-size: smaller;
+    padding-top: 10%;
+
+}
+h1{
+    font-size: smaller;
+}
+
+}
